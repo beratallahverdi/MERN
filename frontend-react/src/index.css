@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* > body {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav.MuiList-root{
+    display: flex;
+    justify-content: space-between;
+}
+nav.MuiList-root > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+div[role='presentation'] > nav{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+div[role='presentation'] > nav > a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+formControl {
+  min-width: 120;
+  max-width: 300;
+}
+chips {
+  display: 'flex';
+  flex-wrap: 'wrap';
+}
+chip {
+  margin: 2;
+}

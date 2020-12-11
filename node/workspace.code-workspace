@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\mern-exercise-tracker-mongodb-master\\backend"
+		},
+		{
+			"path": "..\\..\\mern-exercise-tracker-mongodb-master\\public"
+		},
+		{
+			"path": "..\\..\\mern-exercise-tracker-mongodb-master\\src"
+		}
+	]
+}
