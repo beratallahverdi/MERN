@@ -28,6 +28,22 @@ content-type: application/json
     "AKTIF": 1
 }
 ###
+POST http://192.168.1.128/sorgu/Welcome
+content-type: application/json
+
+{
+    "DERS_KODU": "BRT20714",
+    "DERS_ADI_TR": "BERAT ALLAHVERDI",
+    "DERS_ADI_EN": "ERTUGRUL BERAT ALLAHVERDI",
+    "PROG_ID": 999999,
+    "TU": 4,
+    "KREDI": 0,
+    "AKTS": 4,
+    "YARIYIL": 1,
+    "AKADEMIK_ID": 1,
+    "AKTIF": 1
+}
+###
 PUT http://192.168.1.128:8080/dersler/update
 content-type: application/json
 
